@@ -19,8 +19,9 @@ Load a CSV → configure parameters → click **Run Backtest** → a professiona
 ---
 
 ## Screenshots
+![alt text](image.png)
 
-### Application — Apple-style Dark UI
+### Application 
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -50,6 +51,7 @@ Load a CSV → configure parameters → click **Run Backtest** → a professiona
 
 ### PDF Report — Page 1: Dashboard
 
+![alt text](ma-cross.png)
 ```
 ╔══════════════════════════════════════════════════════════╗
 ║  BACKTEST REPORT                                         ║
