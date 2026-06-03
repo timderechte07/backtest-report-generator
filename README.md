@@ -18,66 +18,16 @@ Load a CSV → configure parameters → click **Run Backtest** → a professiona
 
 ---
 
-## Screenshots
-![alt text](image.png)
+
 
 ### Application 
 
-```
-┌─────────────────────────────────────────────────────────┐
-│  Backtest           Strategy Analysis & Report Generator │
-├─────────────────────────────────────────────────────────┤
-│  DATA SOURCE                                             │
-│  CSV File   btc_daily.csv · 1,500 rows      [Choose…]  │
-├─────────────────────────────────────────────────────────┤
-│  STRATEGY                                                │
-│  [ RSI ]  [ MA Crossover ]                               │
-│  RSI Period: 14   Oversold: 30   Overbought: 70          │
-│                                                          │
-│  RISK MANAGEMENT                                         │
-│  Stop Loss %: 2.0   Take Profit %: 4.0   Capital: 10000  │
-├─────────────────────────────────────────────────────────┤
-│  OUTPUT LOG                                              │
-│  ▌ [14:02:31]  Loaded btc_daily.csv (1,500 rows)        │
-│  ▌ [14:02:31]  Date range 2020-01-01 to 2025-09-30      │
-│  ▌ [14:02:32]  Backtest complete · 136 trades executed   │
-│  ▌ [14:02:32]  Return +167.88%  Winrate 50.0%           │
-│  ▌ [14:02:33]  Report saved → reports/backtest_...pdf   │
-├─────────────────────────────────────────────────────────┤
-│  ████████████████████████████████  100%                  │
-│  ( Run Backtest )   Report saved ✓                       │
-└─────────────────────────────────────────────────────────┘
-```
+![alt text](image.png)
+
 
 ### PDF Report — Page 1: Dashboard
 
 ![alt text](ma-cross.png)
-```
-╔══════════════════════════════════════════════════════════╗
-║  BACKTEST REPORT                                         ║
-║  MA Crossover               01 Jan 2020 – 30 Sep 2025   ║
-║                                             +167.88%     ║
-║                                     Final  $26,788.00   ║
-╠══════════════════════════════════════════════════════════╣
-║  PERFORMANCE METRICS                                     ║
-║  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐     ║
-║  │ SHARPE RATIO │ │ MAX DRAWDOWN │ │   WIN RATE   │     ║
-║  │    1.269     │ │   -11.07%    │ │    50.0%     │     ║
-║  └──────────────┘ └──────────────┘ └──────────────┘     ║
-║  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐     ║
-║  │ TOTAL TRADES │ │   AVG WIN    │ │PROFIT FACTOR │     ║
-║  │     136      │ │   +2.45%     │ │    1.87      │     ║
-║  └──────────────┘ └──────────────┘ └──────────────┘     ║
-║                                                          ║
-║  EQUITY CURVE                                            ║
-║  $27k ┤                    ╭──────╮                      ║
-║  $18k ┤          ╭────────╯      ╰──── $26,788          ║
-║  $10k ┤ ─ ─ ─ ─ ╯  (start)                              ║
-║       └──────────────────────────────────────────        ║
-║  DRAWDOWN                                                ║
-║      ┤▓▓▓▓▓▓▓▓▓▓▓  max: -11.07%                         ║
-╚══════════════════════════════════════════════════════════╝
-```
 
 ---
 
